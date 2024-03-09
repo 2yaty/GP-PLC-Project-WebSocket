@@ -1,5 +1,5 @@
 const stompClient = new StompJs.Client({
-    brokerURL: 'https://gp-plc-8ce4d5dae95b.herokuapp.com/gs-guide-websocket'
+    brokerURL: 'ws:https://gp-plc-8ce4d5dae95b.herokuapp.com/gs-guide-websocket'
 });
 
 stompClient.onConnect = (frame) => {
